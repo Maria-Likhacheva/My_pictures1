@@ -42,6 +42,7 @@ def triangle(x, y, size, colour, angle)
 
 def main():
     # TODO: (Maria) Figure 1
+    square(-250, 150, 100, 'orange', 0)
     pass
     # TODO: (Maria) Figure 2
     
