@@ -1,6 +1,6 @@
 import turtle
 
-def sguare(x, y, size, colour, angle)
+def sguare(x, y, size, colour, angle):
     # TODO: (Maria)
     turtle.pencolor(colour)
     turtle.fillcolor(colour)
@@ -21,7 +21,7 @@ def sguare(x, y, size, colour, angle)
     turtle.home()
     pass
 
-def triangle(x, y, size, colour, angle)
+def triangle(x, y, size, colour, angle):
     # TODO: (Irina)
     turtle.pencolor(colour)
     turtle.fillcolor(colour)
@@ -41,9 +41,16 @@ def triangle(x, y, size, colour, angle)
     pass
 
 def main():
+    turtle.reset()
+    
     # TODO: (Maria) Figure 1
     square(-250, 150, 100, 'orange', 0)
     pass
+
+    # TODO: (Irina) Figure 1
+    triangle(150, 150, 100, 'purple', 0)
+    pass
+
     # TODO: (Maria) Figure 2
     square(-250, 0, 50, 'violet', 0)
     square(-250, 50, 50, 'slateblue', 0)
@@ -58,10 +65,11 @@ def main():
     pass
     # TODO: (Maria) Figure 3
     pass
-    # TODO: (Irina) Figure 1
-    triangle(150, 150, 100, 'purple', 0)
-    pass
+
     # TODO: (Irina) Figure 2
     pass
+
     # TODO: (Irina) Figure 3
     pass
+
+main()
