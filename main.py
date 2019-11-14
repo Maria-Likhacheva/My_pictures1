@@ -1,6 +1,6 @@
 import turtle
 
-def sguare(x, y, size, colour, angle)
+def sguare(x, y, size, colour, angle):
     # TODO: (Maria)
     turtle.pencolor(colour)
     turtle.fillcolor(colour)
@@ -21,7 +21,7 @@ def sguare(x, y, size, colour, angle)
     turtle.home()
     pass
 
-def triangle(x, y, size, colour, angle)
+def triangle(x, y, size, colour, angle):
     # TODO: (Irina)
     turtle.pencolor(colour)
     turtle.fillcolor(colour)
