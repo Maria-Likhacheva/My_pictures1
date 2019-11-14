@@ -85,15 +85,13 @@ def main():
     triangle(-190, -250, 40, 'mediumspringgreen', 0)
     pass
 
-    # TODO: (Irina) Figure 3
-    square(-250, -200, 50, 'lime', 0)
-    square(-250, -150, 50, 'aqua', 0)
-    square(-200, -200, 50, 'aqua', 0)
-    square(-200, -150, 50, 'lime', 0)
-    triangle(-150, -150, 100, 'yellow', 30)
-    triangle(-250, -200, 100, 'dodgerblue', 150)
-    triangle(-190, -150, 40, 'mediumspringgreen', 300)
-    triangle(-190, -250, 40, 'mediumspringgreen', 0)
+    # TODO: (Irina) Figure 3  triangle(225, -242.6, 110, 'coral', 180)
+    square(207, -210, 20, 'gold', 241)
+    square(134, -210, 20, 'gold', 210)
+    triangle(222, -172, 15, 'coral', 120)
+    triangle(134, -172, 15, 'coral', 120)
+    triangle(190, -241.6, 15, 'coral', 120)
+    triangle(160, -241.6, 15, 'coral', 120)
     pass
 
 main()
