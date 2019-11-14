@@ -32,9 +32,9 @@ def triangle(x, y, size, colour, angle)
     turtle.begin_fill()
     turtle.forward(size)
     turtle.right(120)
-    turtle.forward(size)
+    turtle.forwardh(size)
     turtle.right(120)
-    turtle.forward(size)
+    turtle.forwardh(size)
     turtle.end_fill()
     turtle.up()
     turtle.home()
@@ -44,9 +44,13 @@ def main():
     # TODO: (Maria) Figure 1
     pass
     # TODO: (Maria) Figure 2
-    pass
-    # TODO: (Irina) Figure 1
     
     pass
+    # TODO: (Maria) Figure 3
+    pass
+    # TODO: (Irina) Figure 1
+    pass
     # TODO: (Irina) Figure 2
+    pass
+    # TODO: (Irina) Figure 3
     pass
