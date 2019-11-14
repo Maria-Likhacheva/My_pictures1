@@ -1,6 +1,6 @@
 import turtle
 
-def sguare(x, y, size, colour, angle):
+def square(x, y, size, colour, angle):
     # TODO: (Maria)
     turtle.pencolor(colour)
     turtle.fillcolor(colour)
