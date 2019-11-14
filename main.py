@@ -27,7 +27,7 @@ def triangle(x, y, size, colour, angle):
     turtle.fillcolor(colour)
     turtle.up()
     turtle.goto(x, y)
-    turtlr.down()
+    turtle.down()
     turtle.right(angle)
     turtle.begin_fill()
     turtle.forward(size)
@@ -44,11 +44,11 @@ def main():
     turtle.reset()
     
     # TODO: (Maria) Figure 1
-    square(-250, 150, 100, 'orange', 0)
+    square(-200, 300, 50, 'orange', 0)
     pass
 
     # TODO: (Irina) Figure 1
-    triangle(150, 150, 100, 'purple', 0)
+    triangle(150, 300, 50, 'purple', 0)
     pass
 
     # TODO: (Maria) Figure 2
